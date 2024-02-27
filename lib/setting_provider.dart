@@ -5,7 +5,7 @@ import 'package:rakna_graduation_project/features/profile/pages/profile_page.dar
 import 'package:rakna_graduation_project/features/reserve/pages/reserve_page.dart';
 
 class SettingProvider extends ChangeNotifier {
-  List<Widget> Screens = [
+  List<Widget> screens = [
     const DashBordPage(),
     const DetailsPage(),
     const ReservePage(),

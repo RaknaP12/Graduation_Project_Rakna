@@ -37,7 +37,7 @@ class _LayoutViewState extends State<LayoutView> {
           ),
         ],
       ),
-      body: vm.Screens[vm.currentIndex],
+      body: vm.screens[vm.currentIndex],
     );
   }
 }
