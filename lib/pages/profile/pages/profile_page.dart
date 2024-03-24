@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rakna_graduation_project/config/constants/application_theme_manger.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -6,7 +7,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Color(0xff5B5B5B),
+      backgroundColor: ApplicationThemeManager.prymaryColor,
       body: Center(
         child: Text(
           "ProfilePage",

@@ -96,7 +96,7 @@ class _CustomTextFieldState extends State<CustomTextField> {
         hintText: widget.hint,
         hintStyle: TextStyle(fontSize: 15, color: widget.hintColor),
         counterText: "",
-        border: UnderlineInputBorder(),
+        border: const UnderlineInputBorder(),
         // suffix: isPass widget.suffixWidget,
         // contentPadding: const EdgeInsets.only(top: 5,left: 5, right: 5),
         disabledBorder: UnderlineInputBorder(
@@ -118,7 +118,10 @@ class _CustomTextFieldState extends State<CustomTextField> {
             width: 1,
           ),
         ),
-        errorStyle: const TextStyle(color: Colors.deepOrangeAccent, fontWeight: FontWeight.w400,),
+        errorStyle: const TextStyle(
+          color: Colors.deepOrangeAccent,
+          fontWeight: FontWeight.w400,
+        ),
         errorMaxLines: 6,
         errorBorder: UnderlineInputBorder(
           borderRadius: BorderRadius.circular(10),
